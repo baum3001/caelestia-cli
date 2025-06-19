@@ -9,7 +9,6 @@ from caelestia.utils.scheme import (
     get_scheme_names,
     scheme_variants,
 )
-from caelestia.utils.theme import apply_colours
 
 
 class Set:

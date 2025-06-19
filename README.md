@@ -1,6 +1,8 @@
 # caelestia-cli
 
-The main control script for the Caelestia dotfiles.
+This forked verison _only_ contains the essentials required for the shell: wallpaper management and scheme generation.
+
+After installing with the instructions below, you should just seamlessly be able to use the shell, wihtout ever having to run this cli tool directly.
 
 ## Installation
 
