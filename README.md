@@ -23,3 +23,9 @@ Then add it to your system configuration:
   ];
 }
 ```
+
+## Issues:
+ - Changing the wallpaper changes the scheme of some completly unrelated (currently running) programs, in my case 'ghostty'
+
+## Future Plans:
+ - Make it also generate a [tinted-theming](https://github.com/tinted-theming/schemes) scheme for use with [stylix](https://github.com/nix-community/stylix)
