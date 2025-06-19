@@ -9,7 +9,7 @@ Add this repo to your system flake:
 ```nix
 {
   inputs = {
-    caelestia-cli.url = "github:caelestia-dots/cli";
+    caelestia-cli.url = "github:t7h-dots/cli";
   };
 }
 ```
