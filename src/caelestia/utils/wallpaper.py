@@ -140,7 +140,6 @@ def set_wallpaper(wall: Path | str, no_smart: bool) -> None:
 
     # Update colours
     scheme.update_colours()
-    #apply_colours(scheme.colours, scheme.mode) breaks on nixos, also not needed in nixos
 
 
 def set_random(args: Namespace) -> None:
