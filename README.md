@@ -4,14 +4,20 @@ The main control script for the Caelestia dotfiles.
 
 ## Installation
 
-### Package manager
-
-TODO
-
-### Manual installation
-
-TODO
-
-## Usage
-
-TODO
+### NixOS
+Add this repo to your system flake:
+```nix
+{
+  inputs = {
+    caelestia-cli.url = "github:caelestia-dots/cli";
+  };
+}
+```
+Then add it to your system configuration:
+```nix
+{
+  environment.systemPackages = with pkgs; [
+    inputs.caelestia-cli.packages.${pkgs.system}.default
+  ];
+}
+```
