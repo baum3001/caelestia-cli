@@ -16,7 +16,6 @@ from caelestia.utils.paths import (
     wallpapers_cache_dir,
 )
 from caelestia.utils.scheme import Scheme, get_scheme
-from caelestia.utils.theme import apply_colours
 
 
 def is_valid_image(path: Path | str) -> bool:
